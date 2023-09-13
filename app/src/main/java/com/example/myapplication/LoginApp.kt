@@ -1,6 +1,9 @@
 package com.example.myapplication
 
-sealed class Destination (val route: String){
-    object LoginScreen: Destination("login_screen")
-    object RegisterScreen: Destination("register_screen")
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+@HiltAndroidApp
+class LoginApp : Application() {
+
 }

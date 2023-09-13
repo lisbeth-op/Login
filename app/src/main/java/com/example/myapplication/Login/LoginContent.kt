@@ -58,22 +58,7 @@ fun LoginContent(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            //Image(
-               // modifier = Modifier.testTag("LOGO_IMAGE"),
-                //painter = painterResource(id = R.drawable.ic_launcher_background),
-              //  contentDescription = null)
-            //)
 
-            //Text(
-               // text = stringResource(id = R.string.hello),
-               // color = MaterialTheme.colorScheme.surfaceVariant,
-               // fontSize = 20.sp,
-              //  modifier = Modifier
-              //      .padding(18.dp)
-             //       .semantics { heading() }
-             //       .testTag(ANDROID_TEXT),
-            //    style = TextStyle(textDecoration = TextDecoration.Underline)
-            //)
         }
 
     }
